@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS Variables et JS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1 class="titre">Changer les variables CSS avec JavaScript</h1>
+    
+    <div class="controls">
+        <label for="taille">Taille : </label>
+        <input id="taille" type="range" name="taille" min="100" max="500" data-sizing="px">
+    
+        <label for="blur">Flou : </label>
+        <input type="range" id="blur" name="blur" min="0" max="25" data-sizing="px">
+
+        <label for="base">Couleur : </label>
+        <input type="color" id="base" name="base" value="#ffc600">
+    </div>
+
+    <img src="p1.jpeg">
+
+    <script src="script.js"></script>
+</body>
+</html>

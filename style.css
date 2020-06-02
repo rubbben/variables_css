@@ -1,0 +1,32 @@
+:root {                 /*Creation de variable en CSS. Elles sont liees avec le name de input*/
+    --base: #ffc600;
+    --taille: 100px;
+    --blur: 10px;
+}
+
+img {
+    height: var(--taille);
+    filter: blur(var(--blur));
+}
+
+.titre {
+    color: var(--base);
+    font-size: 50px;
+}
+
+body {
+    text-align: center;
+    background: #193548;
+    color: #fff;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 40px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
